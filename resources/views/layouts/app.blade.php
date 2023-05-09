@@ -19,7 +19,7 @@
             <h1 class="text-3xl font-black">Social Dev</h1>
             <nav class="flex gap-2 items-center">
                 <a class="font-bold uppercase text-gray-600 text-sm" href="#">Login</a>
-                <a class="font-bold uppercase text-gray-600 text-sm" href="/crear-cuenta">Crear cuenta</a>
+                <a class="font-bold uppercase text-gray-600 text-sm" href="{{ route('register') }}">Register</a>
             </nav>
         </div>
 
